@@ -1,0 +1,58 @@
+.proglang-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #777;
+}
+
+.proglang-circle img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.featurette {
+  margin-bottom: 5rem;
+}
+
+.gray {
+  background: linear-gradient(300deg, #9c9787, #ffd6ba, #dcd5c4, #ffeaea);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container {
+  background-color: #fff7f3;
+}

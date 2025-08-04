@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Languages</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="gray">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CodeMap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-label="Slide 1"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container gray">
+              <div
+                class="carousel-caption text-start gray"
+                style="border-radius: 35px; border: 5px solid whitesmoke"
+              >
+                <h1>CodeMap.</h1>
+                <p class="opacity-75">
+                  Smart language usage guide made simple for every curious
+                  developer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container gray">
+              <div
+                class="carousel-caption gray"
+                style="border-radius: 35px; border: 5px solid whitesmoke"
+              >
+                <h1>The Best Guide.</h1>
+                <p>
+                  Explore coding language purposes easily with this helpful
+                  tool.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container gray">
+              <div
+                class="carousel-caption text-end gray"
+                style="border-radius: 35px; border: 5px solid whitesmoke"
+              >
+                <h1>Find Your Way.</h1>
+                <p>
+                  Find the right language purpose through this simple guide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- App Intro -->
+      <div class="container marketing">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="proglang-circle">
+              <img src="./shoot (7).png" alt="Python Logo" />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="fw-normal" style="font-size: 100px">CodeMap</h2>
+            <p>
+              This app helps you choose the best programming language for your
+              project easily.
+            </p>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="featurette-heading fw-normal lh-1">Python language.</h2>
+            <p class="lead">
+              Python is a smart, easy-to-read language. It's used in AI, machine
+              learning, mobile games, and automating tasks.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="background-color: #ffeaea; width: 100%; height: 500px"
+            >
+              <img
+                src="./python logo.png"
+                alt="Python"
+                width="300"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="featurette-heading fw-normal lh-1">Java language</h2>
+            <p class="lead">
+              Java is a strong, object-oriented language. It's used in mobile
+              apps, web servers, and big systems.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="background-color: #ffeaea; width: 100%; height: 500px"
+            >
+              <img src="./java logo.webp" alt="Java" width="300" height="300" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="featurette-heading fw-normal lh-1">
+              JavaScript language.
+            </h2>
+            <p class="lead">
+              JavaScript makes websites interactive and dynamic. It's used in
+              web apps, games, and UI design.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="background-color: #ffeaea; width: 100%; height: 500px"
+            >
+              <img
+                src="./javascriptlogo.webp"
+                alt="JavaScript"
+                width="300"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="featurette-heading fw-normal lh-1">C++</h2>
+            <p class="lead">
+              C++ is a fast and powerful language. It's used in game engines,
+              system software, and robotics.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="background-color: #ffeaea; width: 100%; height: 500px"
+            >
+              <img src="./c++ logo.png" alt="C++" width="300" height="300" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="featurette-heading fw-normal lh-1">Swift</h2>
+            <p class="lead">
+              Swift is a modern language by Apple. It's used to build fast, safe
+              iOS and macOS apps.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div
+              class="d-flex align-items-center justify-content-center"
+              style="background-color: #ffeaea; width: 100%; height: 500px"
+            >
+              <img
+                src="./swift logo.png"
+                alt="Swift"
+                width="300"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container mt-5">
+        <p class="float-end">
+          <a href="https://github.com/Maha-Abdelhamid">My Profile On GitHub</a>
+        </p>
+        <p>
+          © 2025–2026 Company, Inc. · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
